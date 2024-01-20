@@ -1,0 +1,174 @@
+.mainbox {
+  border: 1px solid;
+  height: 820px;
+}
+
+/* .outerBox{
+  border: 1px solid;
+  margin-top: 4px;
+  margin-right: 4px;
+  margin-left: 4px;
+ 
+}
+.innerBox{
+  margin-top: 2px;
+  margin-left: 4px;
+  border: 1px solid;
+  display: inline-block;
+  width: 250px; 
+  height: 150px; 
+  padding: 4px; 
+  margin-bottom: 20px;
+
+  
+}
+.innerBox img{ 
+  height: 150px;
+  width: 110px; 
+  margin-right: 60px; 
+    
+} */
+
+.outerBox {
+  display: flex;
+}
+
+.innerBox {
+  margin-top: 1px;
+  margin-left: 4px;
+  /* border: 1px solid; */
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.imageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageBox img {
+  margin-top:38px;
+  height: 190px;
+  width: 190px;
+  border-radius: 130px;
+  /* border: 1px solid; */
+}
+
+.contentBox {
+  margin-top: 1px;
+  flex: 1;
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.innerbox {
+  display: flex;
+  align-items: center;
+}
+
+.innerbox span.material-symbols-outlined {
+  margin-left: 10px;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.innerBox p img{
+  height: 15px;
+  width: 15px;
+}
+.description h2{
+  color: rgb(2, 169, 247);  
+}
+
+
+
+
+.maindescription {
+  width: 1300px;
+  /* border: 1px solid; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.description {
+  display: inline-block;
+  vertical-align: top;  
+  width: 45%; 
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 40px;
+  border: 1px solid;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+.btn{
+  display: flex;
+  width: 70px;
+  height: 25px;
+  padding: 2px;
+  margin-left: 10px;
+  
+  
+}
+.btn input[type="button"] {
+  display: inline-block;
+  width: auto; /* Adjust the width as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+  background-color: rgb(45, 170, 228);
+  color: white;
+  border: none;
+}
+
+.description h2  {
+  margin-left: 10px;
+  margin-top: 2px;
+}
+.description p  {
+  margin-left: 10px;
+}
+
+
+.pagination {
+  margin-top: 5px;
+  margin-left: 500px;
+}
+
+.pagination a {
+  float: left;
+  padding: 8px 10px;
+  text-decoration: none;
+  transition: background-color .3s;
+  position: relative;
+  border: 1px solid  rgb(45, 170, 228);
+  color:  rgb(45, 170, 228);
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color:  rgb(255, 255, 255);
+  border: 1px solid;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.onbutton {
+  margin-top: 5px;
+  margin-left: 500px;
+  display: inline-block;
+  color:  rgb(45, 170, 228);
+
+}
+.onbutton input[type="button"] {
+  width: 110px;
+  margin-right: 105px; /* Adjust the margin as needed */
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 5px 16px;
+  
+}
