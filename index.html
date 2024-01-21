@@ -1,127 +1,28 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>John Doe</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='script.js'></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>GitHub Repositories</title>
 </head>
-
 <body>
-    <div class="mainbox">   
-        <div class="outerBox">
-            <div class="innerBox imageBox">
-                <img src="Avatar.jpg" alt="Avatar">
-            </div>
-            <div class="innerBox contentBox">
-                <h2>John Doe</h2>
-                <p>Bio goes here</p>
-                <p><img src="location-pin.png" alt="Location">Orlando</p>
-                <p>Twitter: http://twitter.com/john_doe</p>
-            </div>
-        </div>        
-        <div class="innerbox">
-            <span class="material-symbols-outlined">link</span>
-            <p>https://github.com/john_doe</p>
-        </div>
-        
-        
-        
-    
-        <div class="maindescription">
-            <div class="description">
-                <h2>Heroes</h2>
-                <p>Heroes description goes here</p>
-                <div class="btn">       
-                    <input type="button" value="javascript">
-                    <input type="button" value="angular">
-                    <input type="button" value="angulrjs">
-                    <input type="button" value="Angualrjs2+">
-                </div>
-            </div>
-        
-            <div class="description">
-                <h2>Heroes</h2>
-                <p>Heroes description goes here</p>
-                <div class="btn">
-                    <input type="button" value="javascript" width="100%">
-                    <input type="button" value="angular" width="100%">
-                    <input type="button" value="angulrjs" width="100%">
-                </div>
-            </div>
-        
-            <div class="description">
-                <h2>Heroes</h2>
-                <p>Heroes description goes here</p>
-                <div class="btn">
-                    <input type="button" value="javascript" width="100%">
-                    <input type="button" value="angular" width="100%">
-                    <input type="button" value="angulrjs" width="100%">
-                </div>
-            </div>
-        
-            <div class="description">
-                <h2>Heroes</h2>
-                <p>Heroes description goes here</p>
-                <div class="btn">
-                    <input type="button" value="javascript" width="100%">
-                    <input type="button" value="angular" width="100%">
-                    <input type="button" value="angulrjs" width="100%">
-                    <input type="button" value="Angualrjs2+" width="100%">
-                </div>
-            </div>
-        
-            <div class="description">
-                <h2>Heroes</h2>
-                <p>Heroes description goes here</p>
-                <div class="btn">
-                    <input type="button" value="javascript" width="100%">
-                    <input type="button" value="angular" width="100%">
-                    <input type="button" value="angulrjs" width="100%">
-                    <input type="button" value="Angualrjs2+" width="100%">
-                </div>
-            </div>
-        
-            <div class="description">
-                <h2>Heroes</h2>
-                <p>Heroes description goes here</p>
-                <div class="btn">
-                    <input type="button" value="javascript" width="100%">
-                    <input type="button" value="angular" width="100%">
-                    <input type="button" value="angulrjs" width="100%">            
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <div class="pagination">
-                <a href="#">&laquo;</a>
-                <a href="#">1</a>
-                <a class="active" href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">5</a>
-                <a href="#">6</a>
-                <a href="#">7</a>
-                <a href="#">8</a>
-                <a href="#">9</a>
-                <a href="#">&raquo;</a>
-              </div>
-        </div> 
-        <br><br>
-        <div class="onbutton">
-            <input type="button" value="Older">
-            <input type="button" value="Newer">
-        </div>
-              
-    </div>
-   
-
+  <header>
+    <h1>GitHub Repositories</h1>
+  </header>
+  <main>
+    <section id="user-input">
+      <label for="username">GitHub Username:</label>
+      <input type="text" id="username" placeholder="Enter GitHub username" value="https://github.com/john_doe">
+      <button onclick="fetchRepositories()">Get Repositories</button>
+    </section>
+    <section id="repositories-list">
+      <!-- Repositories will be displayed here -->
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Your Company</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
-
 </html>

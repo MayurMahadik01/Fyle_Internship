@@ -3,31 +3,7 @@
   height: 820px;
 }
 
-/* .outerBox{
-  border: 1px solid;
-  margin-top: 4px;
-  margin-right: 4px;
-  margin-left: 4px;
- 
-}
-.innerBox{
-  margin-top: 2px;
-  margin-left: 4px;
-  border: 1px solid;
-  display: inline-block;
-  width: 250px; 
-  height: 150px; 
-  padding: 4px; 
-  margin-bottom: 20px;
 
-  
-}
-.innerBox img{ 
-  height: 150px;
-  width: 110px; 
-  margin-right: 60px; 
-    
-} */
 
 .outerBox {
   display: flex;
@@ -170,5 +146,10 @@
   border-radius: 10px;
   border: 1px solid;
   padding: 5px 16px;
+  background-color:rgb(252, 252, 252);
   
+}
+
+.onbutton input[type="button"]:hover {
+  color:rgb(45, 170, 228); 
 }
